@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/a760s/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
 	vendor/pantech/a760s/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/pantech/a760s/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/pantech/ef33s/proprietary/lib/libv8.so:obj/lib/libv8.so
+	vendor/pantech/a760s/proprietary/libv8.so:obj/lib/libv8.so
 
 # Lib
 PRODUCT_COPY_FILES += \
@@ -90,7 +90,10 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/a760s/proprietary/libril.so:system/lib/libril.so \
 	vendor/pantech/a760s/proprietary/libloc_adapter.so:system/lib/libloc_adapter.so \
 	vendor/pantech/a760s/proprietary/libloc_eng.so:system/lib/libloc_eng.so \
-	vendor/pantech/a760s/proprietary/libloc_ext.so:system/lib/libloc_ext.so
+	vendor/pantech/a760s/proprietary/libloc_ext.so:system/lib/libloc_ext.so \
+	vendor/pantech/a760s/proprietary/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+	vendor/pantech/a760s/proprietary/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+	vendor/pantech/a760s/proprietary/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so
 
 # bin
 PRODUCT_COPY_FILES += \
