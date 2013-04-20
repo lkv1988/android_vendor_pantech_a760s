@@ -22,8 +22,8 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/a760s/proprietary/libcamera_client.so:obj/lib/libcamera_client.so \
 	vendor/pantech/a760s/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
 	vendor/pantech/a760s/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
-	vendor/pantech/a760s/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/pantech/a760s/proprietary/libv8.so:obj/lib/libv8.so
+	vendor/pantech/a760s/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so
+#	vendor/pantech/a760s/proprietary/libv8.so:obj/lib/libv8.so
 
 # Lib
 PRODUCT_COPY_FILES += \
@@ -91,9 +91,13 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/a760s/proprietary/libloc_adapter.so:system/lib/libloc_adapter.so \
 	vendor/pantech/a760s/proprietary/libloc_eng.so:system/lib/libloc_eng.so \
 	vendor/pantech/a760s/proprietary/libloc_ext.so:system/lib/libloc_ext.so \
-	vendor/pantech/a760s/proprietary/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
-	vendor/pantech/a760s/proprietary/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
-	vendor/pantech/a760s/proprietary/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so
+	vendor/pantech/a760s/proprietary/libmtc.so:system/lib/libmtc.so \
+	vendor/pantech/a760s/proprietary/libnv.so:system/lib/libnv.so \
+	vendor/pantech/a760s/proprietary/libsky_aprlib.so:system/lib/libsky_aprlib.so \
+	vendor/pantech/a760s/proprietary/libcommondefs.so:system/lib/libcommondefs.so \
+	vendor/pantech/a760s/proprietary/libgps.utils.so:system/lib/libgps.utils.so \
+	vendor/pantech/a760s/proprietary/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+	vendor/pantech/a760s/proprietary/libtime_remote_atom.so:system/lib/libtime_remote_atom.so
 
 # bin
 PRODUCT_COPY_FILES += \
@@ -115,4 +119,8 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/a760s/proprietary/btld:system/bin/btld \
 	vendor/pantech/a760s/proprietary/profiler_daemon:system/bin/profiler_daemon \
 	vendor/pantech/a760s/proprietary/sensors.qcom:system/bin/sensors.qcom \
-	vendor/pantech/a760s/proprietary/cpmgrif:system/bin/cpmgrif
+	vendor/pantech/a760s/proprietary/skytestserver:system/bin/skytestserver \
+	vendor/pantech/a760s/proprietary/cpmgrif:system/bin/cpmgrif \
+	vendor/pantech/a760s/proprietary/time_daemon:system/bin/time_daemon \
+	vendor/pantech/a760s/proprietary/wiperiface:system/bin/wiperiface \
+	vendor/pantech/a760s/proprietary/pam_server:system/bin/pam_server
